@@ -1,0 +1,15 @@
+<?php
+  $this->chars1 = array();    
+  $this->chars1[" "] = " ";
+  $this->chars1["\\t"] = "\\t";
+  $this->chars1["\\n"] = "\\n";
+  $this->chars1["\\\\"] = "\\\\";
+  $this->chars1["("] = "(";
+  $this->chars1[")"] = ")";
+  $this->chars1["\\\$"] = "\\\$";
+  $this->chars1["\\\""] = "\\\"";
+  $strng=" !#%&'*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™›΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿsÒ";
+  for ($i=0;$i<strlen($strng);$i++) {
+    $this->chars1[substr($strng,$i,1)]=substr($strng,$i,1);
+  }
+?>

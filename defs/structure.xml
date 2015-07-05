@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<structure>
+
+  <catalog name="yaps" file="yaps.catalog"/>
+
+  <library name="yaps" file="yaps.library"/>
+  <library name="yaps_encoding_standard" file="yaps_encoding_standard.library"/>
+
+  <rootpage name="yaps" file="yaps.php" icon="yaps.gif" catalog="yaps" category="modsettings"/>
+
+</structure>

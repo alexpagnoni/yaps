@@ -1,0 +1,21 @@
+[ Yaps v1.1.0 ]
+-------------------------------------------------------------------------------
+Copyright (C) 2001  Interakt Online - yaps@interakt.ro
+http://www.interakt.ro/products/Yaps
+-------------------------------------------------------------------------------
+
+REQUIREMENTS
+------------
+ - HTTP Server
+ - PHP compiled with GD for JPEG and PNG.
+ - PHP 4.0.5 or above
+
+INSTALLATION
+------------
+Copy the contents of the src/ directory in a desired directory from your web
+site. It contains an Yaps.inc.php include file, two usage examples and two
+images that are used in the examples.
+Modify in the Yaps.inc.php the three variables needed for running.
+Make sure that in the YTMP_DIR and the YFNT_DIR you have write permissions 
+for the web (or nobody user).
+

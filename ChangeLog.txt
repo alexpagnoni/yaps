@@ -1,0 +1,12 @@
+[ Yaps v1.1.0 ]
+(c) Interakt Online SRL
+------------------------------------------------------------
+[18/02/2002] 
+Version 1.1.0
+  - Made font calculations from within php
+  - Added the YFNT_DIR  for storing font infornation
+  - Modified ShowBoxed to make calculations withing PHP
+------------------------------------------------------------
+[12.14.2001]
+Version 1.0.1.
+  - First public release.

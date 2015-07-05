@@ -1,0 +1,39 @@
+# Module short name
+MODULEIDNAME       = yaps
+
+# Module version number
+MODULEVERSION      = 1.1.0-2
+
+# Module release date
+MODULEDATE         = 2003/03/25
+
+# Module long description
+MODULEDESCRIPTION  = PHP-only PS and PDF generation library.
+
+# Module dependencies
+MODULEDEPENDENCIES = ampoliros[2.7.5]
+
+# Module suggestions
+MODULESUGGESTIONS  =
+
+MODULE_AUTHOR        = Interakt Online
+
+MODULE_AUTHOR_EMAIL  = yaps@interakt.ro
+
+MODULE_AUTHOR_SITE   = http://www.interakt.ro/
+
+MODULE_SUPPORT_EMAIL = yaps@interakt.ro
+
+MODULE_BUGS_EMAIL    = yaps@interakt.ro
+
+MODULE_COPYRIGHT     = Copyright (C) 2001  Interakt Online - yaps@interakt.ro
+
+MODULE_LICENSE       = LGPL
+
+MODULE_LICENSE_FILE  = LICENSE
+
+MODULE_MAINTAINER	= Alex Pagnoni - Solarix
+
+MODULE_MAINTAINER_EMAIL	= alex.pagnoni@solarix.biz
+
+MODULE_CATEGORY     = libraries
